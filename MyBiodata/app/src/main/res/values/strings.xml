@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyBiodata</string>
+    <string name="name">Dery Sudrajat</string>
+    <string name="major">Software Engineering Student</string>
+    <string name="id_student">17104005</string>
+    <string name="born">Cirebon, 29 Oktober 1999</string>
+    <string name="future_goals">Wizard</string>
+    <string name="desc">A student of the Faculty of Industrial Engineering and Informatics, Telkom Institute of
+        Technology, majoring in Software Engineering. Dery Sudrajat — born in a small village called the village of
+        Muara, Cirebon, West Java, Indonesia. a student active in the field of Software Engineering, the current
+        position is Chairman of the Software Engineering Student Association.
+    </string>
+    <string name="cd_poster">Poster</string>
+</resources>
