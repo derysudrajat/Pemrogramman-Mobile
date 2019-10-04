@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyIntentApp</string>
+    <string name="move_activity">Move Activity</string>
+    <string name="move_activity_with_data">Move Activity With Data</string>
+    <string name="panggilan">Panggilan</string>
+    <string name="website_ittp">Website ITTP</string>
+    <string name="intent_explicit">Intent Explicit</string>
+    <string name="ini_new_activity">Ini New Activity</string>
+    <string name="data">Data</string>
+    <string name="halaman_activity_1">Halaman Activity 1</string>
+    <string name="put_some_word">Put some word...</string>
+    <string name="send_to_page_2">Send to Page 2</string>
+    <string name="halaman_activity_2">Halaman Activity 2</string>
+    <string name="hasil">Hasil</string>
+    <string name="igracias">IntegratedITTP System (IGRACIAS)</string>
+</resources>

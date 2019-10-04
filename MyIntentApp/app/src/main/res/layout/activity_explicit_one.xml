@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="@dimen/vertical_activity"
+              android:orientation="vertical"
+              tools:context=".ExplicitOneActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/halaman_activity_1"/>
+
+    <EditText
+            android:id="@+id/et_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/put_some_word"
+            android:inputType="text"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_page2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send_to_page_2"/>
+
+</LinearLayout>
