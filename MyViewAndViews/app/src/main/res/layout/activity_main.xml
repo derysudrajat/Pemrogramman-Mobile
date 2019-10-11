@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            tools:context=".MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:id="@+id/iv_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/cd_banner_r80"
+                    android:scaleType="fitXY"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="@dimen/activity_horizontal_layout"
+                    android:layout_marginRight="@dimen/activity_horizontal_layout"
+                    android:background="#4D000000"
+                    android:drawableStart="@drawable/ic_flight_white_24dp"
+                    android:drawablePadding="4dp"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:text="@string/pesawat_r80"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@android:color/white"/>
+        </FrameLayout>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_layout"
+                android:layout_marginTop="@dimen/activity_vertical_layout"
+                android:layout_marginRight="@dimen/activity_horizontal_layout"
+                android:layout_marginBottom="@dimen/activity_vertical_layout"
+                android:text="@string/name"
+                android:textSize="20sp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_layout"
+                android:layout_marginRight="@dimen/activity_horizontal_layout"
+                android:layout_marginBottom="@dimen/activity_vertical_layout"
+                android:text="@string/presiden_ke_3_indonesia"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_layout"
+                android:layout_marginRight="@dimen/activity_horizontal_layout"
+                android:layout_marginBottom="@dimen/activity_vertical_layout"
+                android:text="@string/content_text"
+                android:textSize="12sp"/>
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_layout"
+                android:layout_marginRight="@dimen/activity_horizontal_layout"
+                android:layout_marginBottom="@dimen/activity_vertical_layout">
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/activity_horizontal_layout"
+                        android:text="@string/nama"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/name"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"/>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/activity_horizontal_layout"
+                        android:text="@string/ttl"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/TTL"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"/>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/activity_horizontal_layout"
+                        android:text="@string/Jabatan"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/jabatan"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"/>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/activity_horizontal_layout"
+                        android:text="@string/Penemuan"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/penemuan"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_layout"
+                android:layout_marginRight="@dimen/activity_horizontal_layout"
+                android:text="@string/donasi"/>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_layout"
+                android:layout_marginRight="@dimen/activity_horizontal_layout"
+                android:layout_marginBottom="@dimen/activity_vertical_layout">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_icon"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_marginEnd="@dimen/activity_horizontal_layout"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/iv_icon"
+                    android:layout_toRightOf="@id/iv_icon"
+                    android:text="@string/ajakan"
+                    tools:ignore="RtlHardcoded"/>
+        </RelativeLayout>
+
+        <Button
+                android:id="@+id/btn_donasi"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:layout_marginLeft="@dimen/activity_horizontal_layout"
+                android:layout_marginRight="@dimen/activity_horizontal_layout"
+                android:layout_marginBottom="@dimen/activity_vertical_layout"
+                android:text="@string/Donasi"/>
+
+    </LinearLayout>
+</ScrollView>
