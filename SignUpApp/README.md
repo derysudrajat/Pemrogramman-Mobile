@@ -5,4 +5,4 @@ Project Lesson-4 understanding abaout Style
 
 MainActivity & LoginActivity
 
-<img src="asset/sc-1.png" width="300"> <img src="asset/sc-2.png" width="300">
+<img src="asset/Screenshot_2019-10-18-17-28-26-212_com.derysudrajat.signupapp.png" width="300"> <img src="asset/Screenshot_2019-10-18-17-28-28-927_com.derysudrajat.signupapp.png" width="300"> <img src="asset/Screenshot_2019-10-18-17-28-31-347_com.derysudrajat.signupapp.png" width="300">
