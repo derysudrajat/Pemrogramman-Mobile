@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAzur"
+            tools:context=".LoginActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark1"
+                android:orientation="vertical"
+                android:padding="50dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Selamat Datang di Bambank Studio"
+                    android:textColor="#fff"
+                    android:textSize="25dp"/>
+
+            <TextView
+                    android:id="@+id/tv_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:lines="2"
+                    android:text="@string/conten_text"
+                    android:textColor="#fff"
+                    android:textSize="15sp"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                <Button
+                        android:id="@+id/BtnReadmore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/buttonstyle1"
+                        android:clickable="true"
+                        android:drawSelectorOnTop="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:text="@string/selengkapnya"
+                        android:textColor="#fff"/>
+
+                <Button
+                        android:id="@+id/BtnRegister"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/buttonstyle2"
+                        android:clickable="true"
+                        android:drawSelectorOnTop="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:text="Join Now"
+                        android:textColor="#fff"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <EditText
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_person_outline_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/user"/>
+
+            <EditText
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/pass"
+                    android:inputType="textPassword"/>
+
+            <Button
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_layout"
+                    android:background="@drawable/buttonstyle1"
+                    android:clickable="true"
+                    android:drawSelectorOnTop="true"
+                    android:drawableEnd="@drawable/ic_send_white_24dp"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:text="Login"
+                    android:textColor="#fff"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
