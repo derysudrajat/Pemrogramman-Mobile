@@ -1,23 +1,15 @@
-# MyIntentApp
+# MyLocalization
 
-This project is chapter 2 of Mobile Programming lab practice exercises.
+Project Lesson 7 - Understanding about how to create an app with multi language
 
 ## Screenshot
 
-### MainActivity & Move Activity
+### MainActivity
+### Home Fragment & Profile Fragment (EN)
 
 <img src="asset/sc1.png" width="300"> <img src="asset/sc2.png" width="300">
 
-### Move Activity with Data & Panggilan
+### Home Fragment & Profile Fragment (SP)
 
 <img src="asset/sc3.png" width="300"> <img src="asset/sc4.png" width="300">
-
-### Webste Ittp
-
-<img src="asset/sc5.png" width="300">
-
-### Intent Explicit
-
-<img src="asset/sc6-1.png" width="300"> <img src="asset/sc6-2.png" width="300">
-
 
