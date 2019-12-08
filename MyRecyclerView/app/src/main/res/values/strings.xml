@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">MyRecyclerView</string>
+    <string name="nama_hm">Nama HM</string>
+    <string name="deskripsi_himpunan_mahasiswanya">Deskripsi Himpunan Mahasiswanya</string>
+    <string name="hmiitp">Himpunan Mahasiswa ITTP</string>
+
+    <string-array name="data_name">
+        <item>HMSE</item>
+        <item>HMIF</item>
+        <item>HMSI</item>
+        <item>HMTI</item>
+        <item>HMDKV</item>
+        <item>HMDT</item>
+        <item>HMTT</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Himpunan Mahasiswa Software Engineering, berada pada Prodi S1 Rekayasa Peran
+            gkat Lunak, Fakultas Teknologi Industri dan Informatika, Institut Teknologi Telkom Purwokerto.
+        </item>
+        <item>Himpunan Mahasiswa Informatika, berada pada Prodi S1 Informatika, Fakultas Tek
+            nologi Industri dan Informatika, Institut Teknologi Telkom Purwokerto.
+        </item>
+        <item>Himpunan Mahasiswa Sistem Informasi, berada pada Prodi S1 Sistem Informasi, Fa
+            kultas Teknologi Industri dan Informatika, Institut Teknologi Telkom Purwokerto.
+        </item>
+        <item>Himpunan Mahasiswa Teknik Industri, berada pada Prodi S1 Teknik Industri, Fakul
+            tas Teknologi Industri dan Informatika, Institut Teknologi Telkom Purwokerto.
+        </item>
+        <item>Himpunan Mahasiswa Desain Komunikasi Visual, berada pada Prodi S1 Desain Ko
+            munikasi Visual, Fakultas Teknologi Industri dan Informatika, Institut Teknologi Telkom Purwok
+            erto.
+        </item>
+        <item>Himpunan Mahasiswa D3 Teknik Telekomunikasi, berada pada Prodi D3 Teknik Tel
+            ekomunikasi, Fakultas Teknik Telekomunikasi dan Elektro, Institut Teknologi Telkom Purwokerto.
+        </item>
+        <item>Himpunan Mahasiswa Teknik Telekomunikasi, berada pada Prodi S1 Teknik Teleko
+            munikasi, Fakultas Teknik Telekomunikasi dan Elektro, Institut Teknologi Telkom Purwokerto.
+        </item>
+    </string-array>
+
+    <string-array name="photo">
+        <item>https://i.postimg.cc/hj2mN5HD/hmse.png</item>
+        <item>https://i.postimg.cc/c42RsP66/hmif.png</item>
+        <item>https://i.postimg.cc/MHXBwYSy/hmsi.png</item>
+        <item>https://i.postimg.cc/L5718Z9G/hmti.png</item>
+        <item>https://i.postimg.cc/1XYpVjHC/hmdkv.png</item>
+        <item>https://i.postimg.cc/x1DjRPcc/d3tt.png</item>
+        <item>https://i.postimg.cc/VLxtyMHC/hmtt.png</item>
+    </string-array>
+</resources>
