@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MyMultilanguageApp</string>
+
+    <string name="football">
+        Equipo nacional de Indonesia gana contra equipo nacional de Tailandia
+    </string>
+
+    <string name="goal">
+        Gol de Indonesia anotado por %1$s y %2$s, entonces el puntaje final es %3$d - %4$d por la victoria de Indonesia
+    </string>
+
+    <plurals name="numberOfSongsAvailable">
+        <item quantity="one">%d canción fundar.</item>
+        <item quantity="other">%d canciónes fundar.</item>
+    </plurals>
+
+    <string name="app_homeurl">
+        visita nosotros en
+        <xliff:g id="application_homepage">https://www.medium.com/@dery.io</xliff:g>
+    </string>
+
+    <string name="change_language_settings">
+        Cambiar configuración de idioma
+    </string>
+
+    <string name="tab_text1">Casa</string>
+    <string name="tab_text2">Perfil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dery_sudrajat">Dery Sudrajat</string>
+    <string name="github_com_derysudrajat">github.com/derysudrajat</string>
+    <string name="derysudrajat">\@derysudrajat</string>
+    <string name="image_profile">Image Profile</string>
+    <string name="icon_github">Icon Github</string>
+    <string name="icon_instagram">Icon Instagram</string>
+    <string name="icon_medium">Icon Medium</string>
+    <string name="my_description">Estudiante en el Departamento de Ingeniería de Software, Facultad de Tecnología
+        Industrial e Informática, Instituto de Tecnología Telkom, con experiencia trabajando en un proyecto basado en
+        Android, y enseñando como asistente de laboratorio en 2 departamentos y laboratorios diferentes, un Laboratorio
+        de Programación y una Red de Computadoras. Laboratorio. Aspirando a convertirse en un investigador y un
+        empresario tecnológico en el futuro y darse cuenta de una diligente personalidad y pasión por el aprendizaje.
+    </string>
+    <string name="software_engineering_student_android_enthusiasm">Estudiante de ingeniería de Software | Entusiasmo de
+        Android
+    </string>
+    <string name="address">Dirección</string>
+    <string name="my_location">Cirebon, Java Occidental, Indonesia</string>
+    <string name="hobby">Hobby</string>
+    <string name="my_hobby">Codificación, Viajes, Vlogging, Fotografía</string>
+    <string name="my_quotes">\"Mantente hambriento de conocimiento, permanece tonto para seguir aprendiendo\"</string>
+    <string name="icon_quotes">Icon Quotes</string>
+    <string name="icon_location">Icon Location</string>
+    <string name="icon_favourites">Icon Favourites</string>
+    <string name="follow_me">Follow Me</string>
+    <string name="image_backdrop">Image Backdrop</string>
+</resources>

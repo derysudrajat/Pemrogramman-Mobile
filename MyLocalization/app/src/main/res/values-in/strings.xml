@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MyLocalizationApp</string>
+
+    <string name="football">
+        Tim Nasional Indonesia meraih kemenangan atas Tim Nasional Thailand
+    </string>
+
+    <string name="goal">
+        Goal dari indonesia dicetak oleh %1$s dan %2$s, jadi skor akhirnya adalah %3$d - %4$d atas kemenangan Indonesia
+    </string>
+
+    <plurals name="numberOfSongsAvailable">
+        <item quantity="one">%d lagu ditemukan.</item>
+        <item quantity="other">%d lagu ditemukan.</item>
+    </plurals>
+
+    <string name="app_homeurl">
+        Kunjungi Aku di
+        <xliff:g id="homepage">https://www.medium.com/@dery.io</xliff:g>
+    </string>
+
+    <string name="change_language_settings">
+        Ubah Pengaturan Bahasa
+    </string>
+
+    <string name="tab_text1">Beranda</string>
+    <string name="tab_text2">Profil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dery_sudrajat">Dery Sudrajat</string>
+    <string name="github_com_derysudrajat">github.com/derysudrajat</string>
+    <string name="derysudrajat">\@derysudrajat</string>
+    <string name="image_profile">Image Profile</string>
+    <string name="icon_github">Icon Github</string>
+    <string name="icon_instagram">Icon Instagram</string>
+    <string name="icon_medium">Icon Medium</string>
+    <string name="my_description">Seorang siswa di Departemen Rekayasa Perangkat Lunak, Fakultas Teknologi Industri dan
+        Informatika, Institut Teknologi Telkom, dengan pengalaman bekerja pada proyek berbasis Android, dan mengajar
+        sebagai asisten lab di 2 departemen dan lab yang berbeda, Laboratorium Pemrograman, dan Jaringan Komputer
+        Laboratorium. Bercita-cita untuk menjadi seorang peneliti dan teknopreneur di masa depan dan mewujudkan
+        kepribadian yang rajin dan semangat untuk belajar
+    </string>
+    <string name="software_engineering_student_android_enthusiasm">Mahasiswa Rekayasa Perangkat Lunak | Antusiasme
+        Android
+    </string>
+    <string name="address">Alamat</string>
+    <string name="my_location">Cirebon, Jawa Barat, Indonesia</string>
+    <string name="hobby">Hobi</string>
+    <string name="my_hobby">Pengkodean, Perjalanan, Vlogging, Fotografi</string>
+    <string name="my_quotes">\"Tetap Lapar akan Pengetahuan, Tetaplah Bodoh untuk Terus Belajar\"</string>
+    <string name="icon_quotes">Icon Quotes</string>
+    <string name="icon_location">Icon Location</string>
+    <string name="icon_favourites">Icon Favourites</string>
+    <string name="follow_me">Ikuti Aku</string>
+    <string name="image_backdrop">Image Backdrop</string>
+</resources>

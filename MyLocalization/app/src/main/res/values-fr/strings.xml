@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MyMultilanguageApp</string>
+
+    <string name="football">
+        L\'équipe nationale d\'Indonésie gagne contre l\'équipe nationale de Thaïlande
+    </string>
+
+    <string name="goal">
+        But d\'Indonésie marqué par %1$s et %2$s, donc le score final est %3$d - %4$d pour la victoire de l\'Indonésie
+    </string>
+
+    <plurals name="numberOfSongsAvailable">
+        <item quantity="one">%d chanson trouvé.</item>
+        <item quantity="other">%d chansons trouvé.</item>
+    </plurals>
+
+    <string name="app_homeurl">
+        Visite nous à
+        <xliff:g id="application_homepage">https://www.medium.com/@dery.io</xliff:g>
+    </string>
+
+    <string name="change_language_settings">
+        Modifier les paramètres de langue
+    </string>
+
+    <string name="tab_text1">Domicile</string>
+    <string name="tab_text2">Profil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dery_sudrajat">Dery Sudrajat</string>
+    <string name="github_com_derysudrajat">github.com/derysudrajat</string>
+    <string name="derysudrajat">\@derysudrajat</string>
+    <string name="image_profile">Image Profile</string>
+    <string name="icon_github">Icon Github</string>
+    <string name="icon_instagram">Icon Instagram</string>
+    <string name="icon_medium">Icon Medium</string>
+    <string name="my_description">Étudiant au Département de génie logiciel, Faculté de technologie industrielle et
+        informatique, Telkom Institute of Technology, avec des expériences de travail sur un projet basé sur Android et
+        enseignant en tant qu\'assistant de laboratoire dans 2 départements et laboratoires différents, un laboratoire
+        de programmation et un réseau informatique Laboratoire. Aspirant à devenir un chercheur et un technopreneur à
+        l\'avenir et à réaliser une personnalité assidue et une passion pour l\'apprentissage
+    </string>
+    <string name="software_engineering_student_android_enthusiasm">Étudiant en génie logiciel, Enthousiasme Android
+    </string>
+    <string name="address">Adresse</string>
+    <string name="my_location">Cirebon, Java occidental, Indonésie</string>
+    <string name="hobby">Loisir</string>
+    <string name="my_hobby">Codage, Voyages, Vlogging, Photographie</string>
+    <string name="my_quotes">\"Restez affamé de connaissances, restez stupide pour continuer à apprendre\"</string>
+    <string name="icon_quotes">Icon Quotes</string>
+    <string name="icon_location">Icon Location</string>
+    <string name="icon_favourites">Icon Favourites</string>
+    <string name="follow_me">Suis Moi</string>
+    <string name="image_backdrop">Image Backdrop</string>
+</resources>
