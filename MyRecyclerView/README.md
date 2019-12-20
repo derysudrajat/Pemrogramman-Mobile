@@ -1,4 +1,4 @@
-# MyIntentApp
+# MyRecyclerView
 
 Project Lesson 6 - Understanding about create list with RecycleView
 
