@@ -9,7 +9,7 @@
     <string name="nama">Nama Barang</string>
     <string name="harga">Harga</string>
     <string name="deskripsi">Deskripsi</string>
-    <string name="total">Total Harga : </string>
+    <string name="total">Total Harga :</string>
     <string name="save">Simpan</string>
     <string name="update">Update</string>
 </resources>
