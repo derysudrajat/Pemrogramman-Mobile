@@ -32,9 +32,9 @@ import java.util.Date;
 
 public class HomeActivity extends AppCompatActivity {
 
+    FirebaseDatabase database;
     private FloatingActionButton fab_btn;
-
-    private DatabaseReference mDatabase;
+    private DatabaseReference myRef;
     private FirebaseAuth mAuth;
     private FirebaseUser mUser;
 
@@ -55,10 +55,12 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         mAuth = FirebaseAuth.getInstance();
+        database = FirebaseDatabase.getInstance();
         mUser = mAuth.getCurrentUser();
-        mDatabase = FirebaseDatabase.getInstance().getReference();
+        String uId = mUser.getUid();
+        myRef = database.getReference().child("Daftar Belanja").child(uId);
 
-        mDatabase.keepSynced(true);
+        myRef.keepSynced(true);
 
         fab_btn = findViewById(R.id.fab);
         fab_btn.setOnClickListener(view -> customDialog());
@@ -73,7 +75,7 @@ public class HomeActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         //Total Sum Number
-        mDatabase.addValueEventListener(new ValueEventListener() {
+        myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
@@ -133,11 +135,10 @@ public class HomeActivity extends AppCompatActivity {
                 return;
             }
 
-            String id = mDatabase.push().getKey();
+            String id = myRef.push().getKey();
             String date = DateFormat.getDateInstance().format(new Date());
             Data data = new Data(id, mType, ammint, mNote, date);
-            String uId = mUser.getUid();
-            mDatabase.child("Daftar Belanja").child(uId).child(id).setValue(data);
+            myRef.child(id).setValue(data);
 
             Toast.makeText(getApplicationContext(), "Data Add", Toast.LENGTH_SHORT).show();
 
@@ -155,7 +156,7 @@ public class HomeActivity extends AppCompatActivity {
                 Data.class,
                 R.layout.item_data,
                 MyViewHolder.class,
-                mDatabase) {
+                myRef) {
 
             @Override
             protected void populateViewHolder(MyViewHolder viewHolder, final Data model, final int position) {
@@ -214,13 +215,13 @@ public class HomeActivity extends AppCompatActivity {
 
             Data data = new Data(post_key, type, intAmount, note, date);
 
-            mDatabase.child(post_key).setValue(data);
+            myRef.child(post_key).setValue(data);
             dialog.dismiss();
 
         });
 
         btnDelete.setOnClickListener(view -> {
-            mDatabase.child(post_key).removeValue();
+            myRef.child(post_key).removeValue();
 
             dialog.dismiss();
         });
